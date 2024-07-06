@@ -1,0 +1,9 @@
+
+
+<form action="{% url 'logout' %}" method="post">
+{% csrf_token %}
+
+{{form.as_table}}
+
+<input type="submit" value="Log out">
+</form>
