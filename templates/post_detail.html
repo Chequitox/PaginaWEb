@@ -14,6 +14,12 @@
     <p>PRUEBA</p>
     <h2>{{ object.titulo }}</h2>
     <H3>{{ object.descripcion }}</H3>
+
+
+    {% if object.image %}
+    <img src="{{ object.image.url }}" alt="">
+    {% endif %}
+
     
     <h3>ASDFASD</h3>
 
