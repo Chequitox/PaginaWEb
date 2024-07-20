@@ -18,3 +18,8 @@ class FirstPage(TemplateView):
      
      template_name="registration/first_page.html"
 
+
+class LogoutPageView(TemplateView):
+
+     template_name="registration/logout.html"
+
